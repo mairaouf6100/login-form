@@ -1,0 +1,202 @@
+body{
+
+	background-image: url(img4.jpg);
+	background-size:cover;
+	background-repeat: no-repeat ;
+}
+ 
+.container{
+	background: #fff;
+	width: 75%;
+	height: 600px;
+	margin: 70px auto;
+	border: 2px solid #fff;
+	box-shadow: 0 15px 40px rgb(0, 0,0, 0.5);
+	border-radius:  38px 5px;
+}
+.container .right{
+
+	float :right;
+	height: 550px;
+	width: 50%;
+	/*top right bottom left */
+	margin: 35px ;
+	background-image: url(img2.jpg);
+	background-size:cover; 
+	background-repeat: no-repeat ;
+	
+}
+
+
+.container .left{
+
+	float :left;
+	height: 60px;
+	width: 100%;
+	box-sizing: border-box;
+	
+    
+	
+	
+}
+
+ a{
+ 	color: 	 #cc00ff;
+
+ 	font-size: 15px;
+
+}
+/*forget*/
+.for {
+	/*padding: 38px;*/
+	font-size: 15px;
+}
+/*Login*/
+h1{
+	color: 	#003366;
+}
+/*Doesn't have an account yet*/
+
+p{
+	padding-bottom:5px ;
+	color:#b8b894;
+}
+
+.forbox{
+	border: 2px solid #fff;
+	box-shadow: 0 15px 40px rgb(0, 0,0, 0.2);
+	width: 28%;
+	height: 500px;
+		/*top right bottom left */
+	padding:0 40px ;
+	margin: 60px;
+	font-family:sans-serif;
+
+
+	
+
+}
+/**/
+
+.forbox input {
+	 margin-bottom: 15px;
+	 width: 100%;
+	 border: 1px solid ;
+	 border-radius:5px;
+	 height: 30px;
+}
+
+
+/*.forbox input [type="text"],
+.forbox input [type="Password"]{
+	 margin-bottom: 20px;
+	 width: 50%;
+	 border: 1px solid ;
+	 border-radius:5px;
+	 height: 30px;
+}*/
+
+/*password*/
+.pass{
+	padding-right:120px;
+}
+
+.checkbox input{
+    width: 20px;
+    height: 15px;
+  
+     margin: 0;
+   padding: 0;
+
+   
+
+}
+/*remmber me*/
+.checkbox label{
+
+	font-size: 15px;
+	
+	 margin: 0;
+    padding: 0;
+    color:#b8b894;
+}
+
+/* buttom sign*/
+
+.btn{
+	background-color: 	#bf00ff;
+   color: 	#fff;
+   width: 100%;
+  
+}
+
+/*sign in with*/
+
+
+.p1 {
+    overflow: hidden;
+    text-align: center;
+    margin-top: 8px;
+}
+.p1:before,
+.p1:after {
+    background-color: #b8b894;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+.p1:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+.p1:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+
+.fb{
+	margin-left: 35px;
+	border: 1px solid #3B5998;
+	color: #3B5998;
+	width: 35%;
+	background-color: white;
+	border-radius:5px;
+	padding:3px;
+	height: 30px;
+
+	
+}
+.google {
+    margin-left: 25px;
+	border: 1px solid red;
+	color: red;
+	width: 35%;
+	background-color: white;
+	border-radius:5px;
+	height: 30px;
+	
+
+	
+}
+
+.soical-media{
+	padding: 10px;
+	box-sizing:border-box;
+	border: none;
+	font-size: 1.3em;
+	border-radius: 10px;
+	font-weight: bold;
+	
+}
+
+span {
+	padding: 10px;
+	font-weight: bold;
+	font-size: small;
+
+}
+
